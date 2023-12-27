@@ -1,0 +1,17 @@
+{
+"main": {"LEFT_VRX": "a#d",
+  "RIGHT_VRY":  "d#w",
+  "LEFT_BUTTON":  "/",
+  "RIGHT_BUTTON": "'",
+  "LEFT_JS_BUTTON":  "h",
+  "LEFT_BUTTON&RIGHT_BUTTON":  "esc&/menu"},
+"menu": {
+  "INIT": "\\set_led(0,0,100)",
+  "LEFT_VRX": "a#d",
+  "LEFT_VRY": "s#w",
+  "LEFT_JS_BUTTON": "backspace",
+  "RIGHT_JS_BUTTON": "enter",
+  "LEFT_BUTTON,RIGHT_BUTTON": "/menu",
+  "LEFT_JS_BUTTON,RIGHT_JS_BUTTON": "\\calibrate()"
+}
+}
