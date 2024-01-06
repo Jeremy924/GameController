@@ -1,4 +1,4 @@
-# Gane Controller
+# Game Controller
 User inputs are inputted into the arduino from two joysticks and four buttons. The arduino then sends the data to the computer through the serial port. 
 The computer can also send a command to the arduino to set the color of an RGB LED. 
 
