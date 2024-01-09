@@ -23,8 +23,7 @@ class GameController:
 
     def start_input(self):
         port = self.port
-        global current_controller
-        current_controller = self
+        GameController.current_controller = self
         while True:
             port.write(b'ready\n')
             port.flush()
@@ -69,7 +68,7 @@ class ControllerInput:
         for key in self.inputs:
             if (last is None or self.inputs[key] != last.inputs[
                 key] and key not in self.analog_inputs or key in self.analog_inputs
-                    and abs(self.inputs[key] - last.inputs[key]) > 1):
+                    and abs(self.inputs[key] - last.inputs[key]) > 0):
                 self.changes[key] = self.inputs[key]
 
     def __str__(self):
@@ -85,11 +84,8 @@ def set_color(red, green, blue, port):
     port.flush()
 
 
-time.sleep(0.01)
-
-
 def unhandled_exception(exc_type, exc_value, exc_traceback):
-    if current_controller is None:
+    if GameController.current_controller is None:
         raise exc_value
 
     if GameController.current_controller is not None:
