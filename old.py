@@ -105,8 +105,8 @@ def old():
     for controls in gc.start_input():
         vertical = controls.inputs['right_vry']
         turn = (controls.inputs['left_vrx'] << 2) - 524
-        shift_up = controls.inputs['right_js_pressed']
-        shift_down = controls.inputs['left_js_pressed']
+        shift_up = controls.inputs['right_pressed']
+        shift_down = controls.inputs['left_pressed']
         gas = vertical < 100
         brake = vertical > 140
 

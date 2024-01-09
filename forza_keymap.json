@@ -3,11 +3,15 @@
   "INIT": "\\set_led(0,0,0)",
   "#LEFT_VL": "a",
   "#LEFT_VR": "d",
+  ">LEFT_VU": "enter",
+  ">LEFT_VD": "backspace",
+  ">RIGHT_VL": "esc",
   "#RIGHT_VU": "w",
   "#RIGHT_VD": "s",
   "LEFT_BUTTON":  "/",
   "RIGHT_BUTTON": "'",
   "LEFT_JS_BUTTON":  "h",
+  "RIGHT_JS_BUTTON": "=",
   "LEFT_BUTTON&RIGHT_BUTTON":  "esc&@menu"},
 "menu": {
   "INIT": "\\set_led(0,0,100)",
@@ -15,9 +19,15 @@
   "LEFT_VR": "right",
   "LEFT_VU": "up",
   "LEFT_VD": "down",
+  "RIGHT_VL": "a",
+  "RIGHT_VR": "d",
+  "RIGHT_VU": "w",
+  "RIGHT_VD": "s",
+  "LEFT_BUTTON": "space",
+  "RIGHT_BUTTON": "esc",
   "LEFT_JS_BUTTON": "backspace",
   "RIGHT_JS_BUTTON": "enter",
-  "LEFT_BUTTON,RIGHT_BUTTON": "@return",
-  "LEFT_JS_BUTTON,RIGHT_JS_BUTTON": "\\calibrate()"
+  "LEFT_BUTTON&RIGHT_BUTTON": "@return",
+  "LEFT_JS_BUTTON&RIGHT_JS_BUTTON": "\\calibrate()"
 }
 }
