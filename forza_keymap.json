@@ -6,14 +6,33 @@
   ">LEFT_VU": "enter",
   ">LEFT_VD": "backspace",
   ">RIGHT_VL": "esc",
+  ">RIGHT_VR": "r",
   "#RIGHT_VU": "w",
   "#RIGHT_VD": "s",
   "LEFT_BUTTON":  "/",
   "RIGHT_BUTTON": "'",
   "LEFT_JS_BUTTON":  "h",
   "RIGHT_JS_BUTTON": "=",
-  "LEFT_BUTTON&RIGHT_BUTTON":  "esc&@menu"},
-"menu": {
+  "LEFT_BUTTON&RIGHT_BUTTON":  "@router"},
+"router": {
+  "INIT": "\\set_led(50, 50, 0)",
+  ">LEFT_VD": "@main",
+  ">LEFT_VL": "@menu",
+  ">LEFT_VR": "@race_menu",
+  "RIGHT_BUTTON": "enter",
+  "LEFT_BUTTON": "esc",
+  ">RIGHT_VR": "space",
+  ">RIGHT_VL": "backspace"},
+"race_menu": {
+  "INIT": "\\set_led(50, 50, 50)",
+  "RIGHT_BUTTON": "y",
+  "LEFT_BUTTON": "x",
+  ">RIGHT_VR": "space",
+  ">RIGHT_VL": "backspace",
+  ">RIGHT_VU": "enter",
+  ">RIGHT_VD": "esc",
+  "LEFT_BUTTON&RIGHT_BUTTON": "@return"
+}, "menu": {
   "INIT": "\\set_led(0,0,100)",
   "LEFT_VL": "left",
   "LEFT_VR": "right",
@@ -23,11 +42,11 @@
   "RIGHT_VR": "d",
   "RIGHT_VU": "w",
   "RIGHT_VD": "s",
-  "LEFT_BUTTON": "space",
-  "RIGHT_BUTTON": "esc",
+  "RIGHT_BUTTON": "space",
+  "LEFT_BUTTON": "esc",
   "LEFT_JS_BUTTON": "backspace",
   "RIGHT_JS_BUTTON": "enter",
   "LEFT_BUTTON&RIGHT_BUTTON": "@return",
-  "LEFT_JS_BUTTON&RIGHT_JS_BUTTON": "\\calibrate()"
+  "LEFT_JS_BUTTON&RIGHT_JS_BUTTON": "\\calibrate(next_input)"
 }
 }
