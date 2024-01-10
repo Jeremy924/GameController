@@ -10,6 +10,6 @@ state of the controller inputs. The inputs are stored in a dictionary. The Contr
 also has a dictionary containing only the inputs that have changed since last input. 
 
 ### KeyMapper.py
-The KeyMapper class is used to simulate keyboard strokes based on user input from the game
+The KeyMapper class is used to simulate keyboard inputs based on user input from the game
 controller. The KeyMapper class uses a dictionary from a json file to store the key
 bindings. 
