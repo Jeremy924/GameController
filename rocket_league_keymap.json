@@ -3,7 +3,7 @@
   "#LEFT_VL": "a",
   "#LEFT_VR": "d",
   "#LEFT_VU": "w",
-  "LEFT_VD": "s",
+  "#LEFT_VD": "s",
   "LEFT_JS_BUTTON": "shift",
   "LEFT_BUTTON": "q",
   "RIGHT_BUTTON": "e",
