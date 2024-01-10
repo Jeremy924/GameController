@@ -58,7 +58,7 @@ class KeyBinding:
             if ci not in controller_input.changes:
                 return -1
             input_val = controller_input.changes[ci] if ci not in self.analog_inputs or self.is_analog else \
-            controller_input.changes[ci] > (100 if self.full_only else 5)
+            controller_input.changes[ci] > (100 if self.full_only else 10)
             if input_val != state and state != -1:
                 return -1
             state = input_val
