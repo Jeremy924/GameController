@@ -1,5 +1,8 @@
 {
-"main": {
+  "main": {
+    "INIT": "@router"
+  },
+"race": {
   "INIT": "\\set_led(0,0,0)",
   "#LEFT_VL": "a",
   "#LEFT_VR": "d",
@@ -15,8 +18,8 @@
   "RIGHT_JS_BUTTON": "=",
   "LEFT_BUTTON&RIGHT_BUTTON":  "@router"},
 "router": {
-  "INIT": "\\set_led(50, 50, 0)",
-  ">LEFT_VD": "@main",
+  "INIT": "\\set_led(50, 50, 50)",
+  ">LEFT_VD": "@race",
   ">LEFT_VL": "@menu",
   ">LEFT_VR": "@race_menu",
   "RIGHT_BUTTON": "enter",
