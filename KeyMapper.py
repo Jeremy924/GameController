@@ -88,6 +88,12 @@ class KeyMapper:
     def __init__(self, key_map_json: dict):
         self.controller = GameController.GameController()
 
+        self.old_binding = ['']
+        self.binding_initialized = False
+        self.last_binding_change = 0
+
+        self.pwms = dict()
+
         self.left_center = (130, 128)
         self.right_center = (128, 128)
 
@@ -100,18 +106,33 @@ class KeyMapper:
             self.key_bindings[name] = next_key_bindings
             # self.key_bindings.append(KeyBinding(input_match, key_binding, self.controller))
 
+    def change_map(self, step):
+        if time.time() - self.last_binding_change < 0.5:
+            return
+        self.last_binding_change = time.time()
+        if step == '@return':
+            self.current_binding = self.old_binding.pop()
+        else:
+            self.old_binding.append(self.current_binding)
+            self.current_binding = step[1:]
+
+        for key in self.key_bindings[self.old_binding[-1]]:
+            key.on_release()
+        self.pwms.clear()
+        self.binding_initialized = False
+
+
+
     def connect(self):
-        old_binding = ['']
-        pwms = dict()
         last_change = 0
 
         for next_instance in self.controller.start_input():
-            for binding, (size, counter) in pwms.items():
+            for binding, (size, counter) in self.pwms.items():
                 if counter == 0:
                     binding.on_press()
                 elif counter > 100:
                     binding.on_release()
-                pwms[binding] = (size, (counter + 1) % (max(1, 158 - size) * 3))
+                self.pwms[binding] = (size, (counter + 1) % (max(1, 158 - size) * 3))
 
             if len(next_instance.changes) == 0:
                 continue
@@ -133,8 +154,9 @@ class KeyMapper:
 
             next_instance.changes = changes
 
-            if self.current_binding != old_binding[-1]:
+            if not self.binding_initialized:
                 if KeyBinding('INIT', '', None) in self.key_bindings[self.current_binding]:
+                    self.binding_initialized = True
                     init_binding = None
                     for binding in self.key_bindings[self.current_binding]:
                         if binding == KeyBinding('INIT', '', None):
@@ -142,14 +164,7 @@ class KeyMapper:
                             break
                     for step in init_binding.key_binding:
                         if step[0] == '@':
-                            if time.time() - last_change < 0.5:
-                                continue
-                            last_change = time.time()
-                            if step == '@return':
-                                self.current_binding = old_binding.pop()
-                            else:
-                                old_binding.append(self.current_binding)
-                                self.current_binding = step[1:]
+                            self.change_map(step)
                             break
                         elif step[0] == '\\':
                             exec('self.' + step[1:])
@@ -161,14 +176,7 @@ class KeyMapper:
                 if state and not binding.is_analog:
                     for step in binding.key_binding:
                         if step[0] == '@':
-                            if time.time() - last_change < 0.5:
-                                continue
-                            last_change = time.time()
-                            if step == '@return':
-                                self.current_binding = old_binding.pop()
-                            else:
-                                old_binding.append(self.current_binding)
-                                self.current_binding = step[1:]
+                            self.change_map(step)
                             break
                         elif step[0] == '\\':
                             exec('self.' + step[1:])
@@ -176,14 +184,14 @@ class KeyMapper:
                 elif binding.is_analog:
 
                     if state > 20:
-                        if binding in pwms:
-                            pwms[binding] = (state, pwms[binding][1])
+                        if binding in self.pwms:
+                            self.pwms[binding] = (state, self.pwms[binding][1])
                         else:
-                            pwms[binding] = (state, 0)
+                            self.pwms[binding] = (state, 0)
                     else:
-                        if binding in pwms:
+                        if binding in self.pwms:
                             binding.on_release()
-                            del pwms[binding]
+                            del self.pwms[binding]
                 else:
                     binding.on_release()
 
