@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=NetL1_4 Pin=L1-4
+Removed Pin From Net: NetName=SW0 Pin=U0-4
+Removed Pin From Net: NetName=SW1 Pin=U0-5
+Added Pin To Net: NetName=SW0 Pin=U0-5
+Added Pin To Net: NetName=SW1 Pin=U0-30
+Add Pin To Net: Unknown Pin: Pin U1-1
+Change Net Name : Old Net Name=NetL1_4 New Net Name=GND
+Change Net Name : Old Net Name=NetU0_7 New Net Name=JS2
+Added Pin To Net: NetName=JS1 Pin=U0-29
+Added Pin To Net: NetName=JS1 Pin=U1-5
+Added Net: Name=JS1
+Added Pin To Net: NetName=SW2 Pin=SW2-1
+Added Pin To Net: NetName=SW2 Pin=SW2-1
+Added Pin To Net: NetName=SW2 Pin=U0-6
+Added Net: Name=SW2
+Added Pin To Net: NetName=SW3 Pin=SW3-1
+Added Pin To Net: NetName=SW3 Pin=SW3-1
+Added Pin To Net: NetName=SW3 Pin=U0-26
+Added Net: Name=SW3
+Added Pin To Net: NetName=VX1 Pin=U0-11
+Added Pin To Net: NetName=VX1 Pin=U1-3
+Added Net: Name=VX1
+Added Pin To Net: NetName=VX2 Pin=U0-10
+Added Pin To Net: NetName=VX2 Pin=U2-3
+Added Net: Name=VX2
+Added Pin To Net: NetName=VY1 Pin=U0-9
+Added Pin To Net: NetName=VY1 Pin=U1-4
+Added Net: Name=VY1
+Added Pin To Net: NetName=VY2 Pin=U0-8
+Added Pin To Net: NetName=VY2 Pin=U2-4
+Added Net: Name=VY2

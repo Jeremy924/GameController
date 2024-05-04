@@ -1,0 +1,72 @@
+Added Component: Designator=SW0(temp switch)
+Added Component: Designator=SW1(temp switch)
+Added Component: Designator=SW2(temp switch)
+Added Component: Designator=SW3(temp switch)
+Added Component: Designator=U0(MODULE_ABX00028)
+Add component (AddParameter): Name = "Availability"; Value = "Not in stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/Arduino%20Nano%20Every/Arduino/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Arduino"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "Arduino Nano Every"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/Arduino%20Nano%20Every/Arduino/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U*(joystick)
+Added Component: Designator=U*(joystick)
+Added Pin To Net: NetName=NetSW0_1 Pin=SW0-1
+Added Pin To Net: NetName=NetSW0_1 Pin=SW0-1
+Added Pin To Net: NetName=NetSW0_1 Pin=SW1-1
+Added Pin To Net: NetName=NetSW0_1 Pin=SW1-1
+Added Pin To Net: NetName=NetSW0_1 Pin=SW2-2
+Added Pin To Net: NetName=NetSW0_1 Pin=SW2-2
+Added Pin To Net: NetName=NetSW0_1 Pin=SW3-2
+Added Pin To Net: NetName=NetSW0_1 Pin=SW3-2
+Added Pin To Net: NetName=NetSW0_1 Pin=U0-19
+Added Pin To Net: NetName=NetSW0_1 Pin=U*-1
+Added Pin To Net: NetName=NetSW0_1 Pin=U*-1
+Added Net: Name=NetSW0_1
+Added Pin To Net: NetName=NetSW2_1 Pin=SW2-1
+Added Pin To Net: NetName=NetSW2_1 Pin=SW2-1
+Added Pin To Net: NetName=NetSW2_1 Pin=U0-29
+Added Net: Name=NetSW2_1
+Added Pin To Net: NetName=NetSW3_1 Pin=SW3-1
+Added Pin To Net: NetName=NetSW3_1 Pin=SW3-1
+Added Pin To Net: NetName=NetSW3_1 Pin=U0-30
+Added Net: Name=NetSW3_1
+Added Pin To Net: NetName=NetU0_6 Pin=U0-6
+Added Pin To Net: NetName=NetU0_6 Pin=U*-5
+Added Net: Name=NetU0_6
+Added Pin To Net: NetName=NetU0_7 Pin=U0-7
+Added Pin To Net: NetName=NetU0_7 Pin=U*-5
+Added Net: Name=NetU0_7
+Added Pin To Net: NetName=NetU0_8 Pin=U0-8
+Added Pin To Net: NetName=NetU0_8 Pin=U*-4
+Added Net: Name=NetU0_8
+Added Pin To Net: NetName=NetU0_9 Pin=U0-9
+Added Pin To Net: NetName=NetU0_9 Pin=U*-3
+Added Net: Name=NetU0_9
+Added Pin To Net: NetName=NetU0_10 Pin=U0-10
+Added Pin To Net: NetName=NetU0_10 Pin=U*-4
+Added Net: Name=NetU0_10
+Added Pin To Net: NetName=NetU0_11 Pin=U0-11
+Added Pin To Net: NetName=NetU0_11 Pin=U*-3
+Added Net: Name=NetU0_11
+Added Pin To Net: NetName=NetU0_12 Pin=U0-12
+Added Pin To Net: NetName=NetU0_12 Pin=U*-2
+Added Pin To Net: NetName=NetU0_12 Pin=U*-2
+Added Net: Name=NetU0_12
+Added Pin To Net: NetName=SW0 Pin=SW0-2
+Added Pin To Net: NetName=SW0 Pin=SW0-2
+Added Pin To Net: NetName=SW0 Pin=U0-4
+Added Net: Name=SW0
+Added Pin To Net: NetName=SW1 Pin=SW1-2
+Added Pin To Net: NetName=SW1 Pin=SW1-2
+Added Pin To Net: NetName=SW1 Pin=U0-5
+Added Net: Name=SW1
+Added Member To Class: ClassName=conroller Member=Component SW0
+Added Member To Class: ClassName=conroller Member=Component SW1
+Added Member To Class: ClassName=conroller Member=Component SW2
+Added Member To Class: ClassName=conroller Member=Component SW3
+Added Member To Class: ClassName=conroller Member=Component U0 ABX00028
+Added Member To Class: ClassName=conroller Member=Component U* joystick
+Added Member To Class: ClassName=conroller Member=Component U* joystick

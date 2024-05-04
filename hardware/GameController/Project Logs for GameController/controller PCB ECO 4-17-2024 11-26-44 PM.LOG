@@ -1,0 +1,38 @@
+Added Component: Designator=SW0(temp switch)
+Added Component: Designator=SW1(temp switch)
+Added Component: Designator=SW2(temp switch)
+Added Component: Designator=SW3(temp switch)
+Added Component: Designator=U*(joystick)
+Added Component: Designator=U*(joystick)
+Added Pin To Net: NetName=NetSW0_1 Pin=SW0-1
+Added Pin To Net: NetName=NetSW0_1 Pin=SW0-1
+Added Pin To Net: NetName=SW0 Pin=SW0-2
+Added Pin To Net: NetName=SW0 Pin=SW0-2
+Added Pin To Net: NetName=NetSW0_1 Pin=SW1-1
+Added Pin To Net: NetName=NetSW0_1 Pin=SW1-1
+Added Pin To Net: NetName=SW1 Pin=SW1-2
+Added Pin To Net: NetName=SW1 Pin=SW1-2
+Added Pin To Net: NetName=NetSW2_1 Pin=SW2-1
+Added Pin To Net: NetName=NetSW2_1 Pin=SW2-1
+Added Pin To Net: NetName=NetSW0_1 Pin=SW2-2
+Added Pin To Net: NetName=NetSW0_1 Pin=SW2-2
+Added Pin To Net: NetName=NetSW3_1 Pin=SW3-1
+Added Pin To Net: NetName=NetSW3_1 Pin=SW3-1
+Added Pin To Net: NetName=NetSW0_1 Pin=SW3-2
+Added Pin To Net: NetName=NetSW0_1 Pin=SW3-2
+Added Pin To Net: NetName=NetSW0_1 Pin=U*-1
+Added Pin To Net: NetName=NetSW0_1 Pin=U*-1
+Added Pin To Net: NetName=NetU0_12 Pin=U*-2
+Added Pin To Net: NetName=NetU0_12 Pin=U*-2
+Added Pin To Net: NetName=NetU0_9 Pin=U*-3
+Added Pin To Net: NetName=NetU0_11 Pin=U*-3
+Added Pin To Net: NetName=NetU0_8 Pin=U*-4
+Added Pin To Net: NetName=NetU0_10 Pin=U*-4
+Added Pin To Net: NetName=NetU0_6 Pin=U*-5
+Added Pin To Net: NetName=NetU0_7 Pin=U*-5
+Added Member To Class: ClassName=conroller Member=Component SW0
+Added Member To Class: ClassName=conroller Member=Component SW1
+Added Member To Class: ClassName=conroller Member=Component SW2
+Added Member To Class: ClassName=conroller Member=Component SW3
+Added Member To Class: ClassName=conroller Member=Component U* joystick
+Added Member To Class: ClassName=conroller Member=Component U* joystick

@@ -1,0 +1,7 @@
+Added Component: Designator=L1(RGB_LED)
+Added Pin To Net: NetName=R Pin=L1-1
+Added Pin To Net: NetName=G Pin=L1-2
+Added Pin To Net: NetName=B Pin=L1-3
+Added Pin To Net: NetName=NetL1_4 Pin=L1-4
+Add Pin To Net: Unknown Pin: Pin U1-1
+Added Member To Class: ClassName=controller Member=Component L1 RGB_LED

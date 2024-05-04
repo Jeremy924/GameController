@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=U* NewDesignator=U1
+Change Component Designator: OldDesignator=U* NewDesignator=U2
+Change Class Name : Old Net Name=conroller New Net Name=controller
+Added Member To Class: ClassName=controller Member=Component U2 joystick

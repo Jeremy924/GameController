@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=SW0 Old Footprint=temp switch New Footprint=DIP_BUTTON
+Change Component Footprint: Designator=SW1 Old Footprint=temp switch New Footprint=DIP_BUTTON
+Change Component Footprint: Designator=SW2 Old Footprint=temp switch New Footprint=DIP_BUTTON
+Change Component Footprint: Designator=SW3 Old Footprint=temp switch New Footprint=DIP_BUTTON
+Add Pin To Net: Unknown Pin: Pin U1-1

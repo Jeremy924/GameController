@@ -1,0 +1,9 @@
+Added Component: Designator=MHNPP1(MTHNP3P2MM)
+Added Component: Designator=MHNPP2(MTHNP3P2MM)
+Added Component: Designator=MHNPP3(MTHNP3P2MM)
+Added Component: Designator=MHNPP4(MTHNP3P2MM)
+Add Pin To Net: Unknown Pin: Pin U1-1
+Added Member To Class: ClassName=controller Member=Component MHNPP1 Mounting Hole Un-Plated 3.2 mm
+Added Member To Class: ClassName=controller Member=Component MHNPP2 Mounting Hole Un-Plated 3.2 mm
+Added Member To Class: ClassName=controller Member=Component MHNPP3 Mounting Hole Un-Plated 3.2 mm
+Added Member To Class: ClassName=controller Member=Component MHNPP4 Mounting Hole Un-Plated 3.2 mm

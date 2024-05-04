@@ -1,0 +1,25 @@
+Added Component: Designator=SW0(DIP_BUTTON)
+Added Component: Designator=SW1(DIP_BUTTON)
+Added Component: Designator=SW2(DIP_BUTTON)
+Added Component: Designator=SW3(DIP_BUTTON)
+Added Pin To Net: NetName=GND Pin=SW0-1
+Added Pin To Net: NetName=GND Pin=SW0-1
+Added Pin To Net: NetName=SW0 Pin=SW0-2
+Added Pin To Net: NetName=SW0 Pin=SW0-2
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=SW1 Pin=SW1-2
+Added Pin To Net: NetName=SW1 Pin=SW1-2
+Added Pin To Net: NetName=SW2 Pin=SW2-1
+Added Pin To Net: NetName=SW2 Pin=SW2-1
+Added Pin To Net: NetName=GND Pin=SW2-2
+Added Pin To Net: NetName=GND Pin=SW2-2
+Added Pin To Net: NetName=SW3 Pin=SW3-1
+Added Pin To Net: NetName=SW3 Pin=SW3-1
+Added Pin To Net: NetName=GND Pin=SW3-2
+Added Pin To Net: NetName=GND Pin=SW3-2
+Add Pin To Net: Unknown Pin: Pin U1-1
+Added Member To Class: ClassName=controller Member=Component SW0
+Added Member To Class: ClassName=controller Member=Component SW1
+Added Member To Class: ClassName=controller Member=Component SW2
+Added Member To Class: ClassName=controller Member=Component SW3

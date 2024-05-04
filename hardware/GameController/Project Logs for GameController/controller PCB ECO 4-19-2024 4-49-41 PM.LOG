@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=NetSW0_1 Pin=U1- 
+Add Pin To Net: Unknown Pin: Pin L*-4
+Add Pin To Net: Unknown Pin: Pin U1-1
+Change Net Name : Old Net Name=NetSW0_1 New Net Name=NetL*_4
+Added Pin To Net: NetName=B Pin=U0-24
+Added Net: Name=B
+Added Pin To Net: NetName=G Pin=U0-23
+Added Net: Name=G
+Added Pin To Net: NetName=R Pin=U0-21
+Added Net: Name=R
+Add Class Member: Failed to add class member : Component L* RGB_LED

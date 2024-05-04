@@ -1,0 +1,9 @@
+Added Component: Designator=U3(PCBComponent_1)
+Add Pin To Net: Unknown Pin: Pin U1-1
+Added Pin To Net: NetName=NetU0_16 Pin=U0-16
+Added Pin To Net: NetName=NetU0_16 Pin=U3-1
+Added Net: Name=NetU0_16
+Added Pin To Net: NetName=NetU0_17 Pin=U0-17
+Added Pin To Net: NetName=NetU0_17 Pin=U3-2
+Added Net: Name=NetU0_17
+Added Member To Class: ClassName=controller Member=Component U3

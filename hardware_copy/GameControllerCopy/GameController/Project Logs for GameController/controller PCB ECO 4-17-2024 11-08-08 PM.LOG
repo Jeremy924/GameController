@@ -1,0 +1,34 @@
+Added Component: Designator=U0(MODULE_ABX00028)
+Add component (AddParameter): Name = "Availability"; Value = "Not in stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/Arduino%20Nano%20Every/Arduino/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Arduino"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "Arduino Nano Every"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/Arduino%20Nano%20Every/Arduino/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetSW0_1 Pin=U0-19
+Added Net: Name=NetSW0_1
+Added Pin To Net: NetName=NetSW2_1 Pin=U0-29
+Added Net: Name=NetSW2_1
+Added Pin To Net: NetName=NetSW3_1 Pin=U0-30
+Added Net: Name=NetSW3_1
+Added Pin To Net: NetName=NetU0_6 Pin=U0-6
+Added Net: Name=NetU0_6
+Added Pin To Net: NetName=NetU0_7 Pin=U0-7
+Added Net: Name=NetU0_7
+Added Pin To Net: NetName=NetU0_8 Pin=U0-8
+Added Net: Name=NetU0_8
+Added Pin To Net: NetName=NetU0_9 Pin=U0-9
+Added Net: Name=NetU0_9
+Added Pin To Net: NetName=NetU0_10 Pin=U0-10
+Added Net: Name=NetU0_10
+Added Pin To Net: NetName=NetU0_11 Pin=U0-11
+Added Net: Name=NetU0_11
+Added Pin To Net: NetName=NetU0_12 Pin=U0-12
+Added Net: Name=NetU0_12
+Added Pin To Net: NetName=SW0 Pin=U0-4
+Added Net: Name=SW0
+Added Pin To Net: NetName=SW1 Pin=U0-5
+Added Net: Name=SW1
+Added Class: Name=conroller
