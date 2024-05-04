@@ -13,3 +13,7 @@ also has a dictionary containing only the inputs that have changed since last in
 The KeyMapper class is used to simulate keyboard inputs based on user input from the game
 controller. The KeyMapper class uses a dictionary from a json file to store the key
 bindings. 
+
+## PCB Design
+Originally, a permanant breadboard was used, but the controller was switched to a PCB to make it sturdier. 
+![PCB Design](https://github.com/Jeremy924/GameController/assets/94857347/72fb7514-6e2b-4676-a89b-02755723fb28)
